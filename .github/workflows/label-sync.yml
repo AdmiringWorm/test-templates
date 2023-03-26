@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2.4.2
+      - uses: actions/checkout@v2.7.0
       - uses: EndBug/label-sync@v2.1.0
         with:
           # Uncomment checkout uses statements and add .github/labels.yml if using repository specific labels as well
